@@ -27,7 +27,7 @@ const Menu_Hero = () => {
                 {/* Title */}
                 <div className="feature-head">
                     <span className="orangeText flexCenter">Local Favorites</span>
-                    <span className="menu-primaryText flexCenter">Take a look before you bite!</span>
+                    <span className="menu-primaryText flexCenter">Look before you bite!</span>
                 </div>
 
                 {/* Slider */}

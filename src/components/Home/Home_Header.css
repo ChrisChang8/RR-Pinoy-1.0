@@ -80,8 +80,8 @@
         color: black;
         position: absolute;
         top: 3rem;
-        right: 4rem;
-        background-color: #fff2e3;
+        right: 3rem;
+        background-color: #eeeeee;
         flex-direction: column;
         font-weight: 700;
         gap: 2rem;

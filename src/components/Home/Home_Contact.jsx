@@ -34,7 +34,6 @@ const Home_Contact = () => {
 
   return (
     <div className="contact-form-container">
-      <h2>Contact Us</h2>
       <form onSubmit={handleSubmit} className="contact-form">
         <div className="form-group">
           <label htmlFor="fullName">Full Name</label>
@@ -90,7 +89,7 @@ const Home_Contact = () => {
             required
           ></textarea>
         </div>
-        <button type="submit">Send Message</button>
+        <button class='' type="submit">Send</button>
       </form>
     </div>
   );

@@ -28,7 +28,9 @@ const Home_Header = () => {
     return (
         <section className="h-wrapper fixed">
             <div className="flexCenter h-container h-innerWidth">
-                <img src="./logo.jpg" alt="logo" width={100} />
+                <div style={{marginLeft: '-15px'}} >
+                    <img src="./logo.jpg" alt="logo" width={100} />
+                </div>
 
                 {/* Full Screen Navbar */}
                 <OutsideClickHandler onOutsideClick={() => { setMenuOpened(false) }}>
