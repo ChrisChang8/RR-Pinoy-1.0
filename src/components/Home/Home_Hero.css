@@ -1,16 +1,16 @@
 .hero-wrapper {
     color: white;
-    background-image: url('pho.jpeg'); /* Set the image as background */
+    background-image: url('/public/pho.jpeg'); 
     background-size: cover;
     background-position: center;
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; /* Center horizontally */
-    text-align: center; /* Center text */
+    align-items: center; 
+    text-align: center; 
     z-index: 1;
-    overflow: hidden; /* Hide overflow content */
+    overflow: hidden; 
 }
 
 /* Overlay for darker opacity */

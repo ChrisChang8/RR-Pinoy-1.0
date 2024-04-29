@@ -1,6 +1,6 @@
 .menu-hero {
   position: relative;
-  background-image: url('rr.jpg'); 
+  background-image: url('/public/rr.jpg'); 
   background-size: cover;
   background-position: center;
 }
