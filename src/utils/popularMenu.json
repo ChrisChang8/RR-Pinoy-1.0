@@ -1,0 +1,38 @@
+[ 
+  {
+    "name": "Food Item Here",
+    "status": "LIVE on Website",
+    "detail": "Food Text Food Text Food Text Food Text",
+    "image": "./pho.jpeg"
+  },
+  {
+    "name": "Food Item Here",
+    "status": "LIVE on Website",
+    "detail": "Food Text Food Text Food Text Food Text",
+    "image": "./pho.jpeg"
+  },
+  {
+    "name": "Food Item Here",
+    "status": "LIVE on Website",
+    "detail": "Food Text Food Text Food Text Food Text",
+    "image": "./pho.jpeg"
+  },
+  {
+    "name": "Food Item Here",
+    "status": "LIVE on Website",
+    "detail": "Food Text Food Text Food Text Food Text",
+    "image": "./pho.jpeg"
+  },
+  {
+    "name": "Food Item Here",
+    "status": "LIVE on Website",
+    "detail": "Food Text Food Text Food Text Food Text",
+    "image": "./pho.jpeg"
+  },
+  {
+    "name": "Food Item Here",
+    "status": "LIVE on Website",
+    "detail": "Food Text Food Text Food Text Food Text",
+    "image": "./pho.jpeg"
+  }
+]

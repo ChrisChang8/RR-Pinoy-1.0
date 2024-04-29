@@ -1,0 +1,50 @@
+.faq-container {
+    background-color: #f0f0f0; /* Example background color */
+}
+
+
+.accordion {
+    border: none !important;
+}
+
+.accordionItem{
+    background: white;
+    border: 0.8px solid rgba(128, 128, 128, .145);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 80%;
+}
+
+.accordionButton{
+    background: white;
+    padding: 1rem;
+    width: 100%;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.icon{
+    padding: 10px;
+    background: #ddd;
+    border-radius: 5px;
+}
+
+.icon svg{
+    fill : rgb(0, 0, 0);
+}
+
+.accordionButton .primaryText{
+    font-size: 1.1rem;
+}
+
+@media (max-width: 1024px){
+    .v-container{
+        flex-direction: column;
+    }
+
+    @media(max-width: 768px){
+        .accordionButton .primaryText{
+            font-size: 0.8rem;
+        }
+    }
+}

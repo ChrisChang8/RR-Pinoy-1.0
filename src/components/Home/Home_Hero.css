@@ -1,0 +1,127 @@
+.hero-wrapper {
+    color: white;
+    background-image: url('pho.jpeg'); /* Set the image as background */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center text */
+    z-index: 1;
+    overflow: hidden; /* Hide overflow content */
+}
+
+/* Overlay for darker opacity */
+.hero-wrapper::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity here */
+    z-index: -1;
+}
+.hero-container{
+    justify-content: space-around;
+    align-items: flex-end;
+    gap: 40px;
+}
+
+.hero-innerWidth {
+    width: 100%;
+    height: 20rem;
+}
+
+/* Left Side */
+.hero-left{
+    gap: 4rem;
+}
+
+.hero-title{
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+
+.hero-title>h1{
+    font-weight: 600;
+    font-size: 3.8rem;
+    line-height: 4rem;
+}
+
+.orange-circle{
+    height: 4rem;
+    width: 4rem;
+    background: var(--orange-gradient);
+    border-radius: 999px;
+    position: absolute;
+    right: 28%;
+    top: -10%;
+    z-index: -1;
+}
+
+.stats{
+    color: black;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.stat>:nth-child(1){
+    font-size: 2rem;
+}
+
+.stat>:nth-child(1)>:last-child{
+    color: #000000;
+}
+
+/* Right Side */
+
+.image-container{
+    width: 30rem;
+    height: 35rem;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0;
+    border: 8px solid rgba(0, 0, 0, 0.2);
+}
+
+.image-container>img{
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 640px){
+    .hero-container{
+        margin-top: 2rem;
+    }
+
+    .hero-title>h1{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+    .image-container{
+        width: 95%;
+        height: 25rem;
+    }
+
+    .stats{
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    .hero-right{
+        width: 100%;
+    }
+
+    .stat>:nth-child(1){
+        font-size: 1.5rem;
+    }
+
+    .stat>:nth-child(2)
+    {
+        font-size: 0.8rem;
+    }
+}

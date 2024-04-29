@@ -1,0 +1,27 @@
+.footer-container {
+    justify-content: space-between;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .flexColStart {
+
+  }
+
+  .map-container {
+    /* Add styles for map container */
+  }
+  
+  .footer-contact {
+    gap: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-content {
+        gap: 25px;
+        flex-direction: column;
+    }
+}
